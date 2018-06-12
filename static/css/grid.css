@@ -1,0 +1,4 @@
+.grid-sizer,
+.grid-item { width: 20%; max-width: 250px; cursor: pointer; }
+.grid-item-2 { width: 40%; max-width: 500px; }
+.pswp { z-index: 10002; }

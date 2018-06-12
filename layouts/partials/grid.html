@@ -1,0 +1,6 @@
+<div class="grid" data-gid="{{ .Params.gid }}" data-isotope='{ "itemSelector": ".grid-item", "masonry": { "columnWidth": ".grid-sizer" } }'>
+    <div class="grid-sizer"></div>
+    {{ range index $.Site.Data.galleries .Params.gid }}
+        <img class="grid-item{{ if gt .width .height }} grid-item-2{{ end }}" src="{{ .small }}" alt="{{ .alt }}" data-image="{{ .large }}" data-width="{{ .width }}" data-height="{{ .height }}" data-pid="{{ .pid }}" data-title="{{ .title }}" />
+    {{ end }}
+</div>
