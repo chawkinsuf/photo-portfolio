@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "isotope-layout": "3.0.x",
+        "photoswipe": "4.1.x"
+    }
+}
