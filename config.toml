@@ -25,7 +25,7 @@ disqusShortname = ""
 
   # Link custom assets relative to /static
   custom_css = ["js/photoswipe/photoswipe.css", "js/photoswipe/default-skin/default-skin.css", "css/grid.css"]
-  custom_js  = ["js/photoswipe/photoswipe.js", "js/photoswipe/photoswipe-ui-default.js", "js/photoswipe.js", "js/isotope/isotope.pkgd.min.js"]
+  custom_js  = ["js/photoswipe/photoswipe.js", "js/photoswipe/photoswipe-ui-default.js", "js/gallery.js", "js/isotope/isotope.pkgd.min.js"]
   favicon    = "favicon.ico"
 
   # Just a custom image variable, please define it in .md files for content.
