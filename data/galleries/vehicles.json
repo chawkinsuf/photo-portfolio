@@ -1,47 +1,47 @@
 [
     {
-        "small": "/img/pic01.jpg",
-        "large": "/img/pic01.jpg",
+        "small": "img/pic01.jpg",
+        "large": "img/pic01.jpg",
         "alt": "Alt text 01",
         "width": "800",
         "height": "1000",
         "title": "Title 01",
         "pid": "name-01"
      },{
-        "small": "/img/pic02.jpg",
-        "large": "/img/pic02.jpg",
+        "small": "img/pic02.jpg",
+        "large": "img/pic02.jpg",
         "alt": "Alt text 02",
         "width": "2048",
         "height": "1365",
         "title": "Title 02",
         "pid": "name-02"
      },{
-        "small": "/img/pic03.jpg",
-        "large": "/img/pic03.jpg",
+        "small": "img/pic03.jpg",
+        "large": "img/pic03.jpg",
         "alt": "Alt text 03",
         "width": "2048",
         "height": "1363",
         "title": "Title 03",
         "pid": "name-03"
      },{
-        "small": "/img/pic04.jpg",
-        "large": "/img/pic04.jpg",
+        "small": "img/pic04.jpg",
+        "large": "img/pic04.jpg",
         "alt": "Alt text 04",
         "width": "2048",
         "height": "1365",
         "title": "Title 04",
         "pid": "name-04"
      },{
-        "small": "/img/pic05.jpg",
-        "large": "/img/pic05.jpg",
+        "small": "img/pic05.jpg",
+        "large": "img/pic05.jpg",
         "alt": "Alt text 05",
         "width": "2048",
         "height": "1365",
         "title": "Title 05",
         "pid": "name-05"
      },{
-        "small": "/img/pic06.jpg",
-        "large": "/img/pic06.jpg",
+        "small": "img/pic06.jpg",
+        "large": "img/pic06.jpg",
         "alt": "Alt text 06",
         "width": "2048",
         "height": "1419",
