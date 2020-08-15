@@ -4,6 +4,7 @@ baseURL = "http://chawkinsuf.com/"
 languageCode = "en-us"
 title = "Sea Hawk Photography"
 theme = "forty"
+disableKinds = ["section"]
 
 cleanDestinationDir = true
 
@@ -23,8 +24,8 @@ disqusShortname = ""
   # for more icons. The icons are represented by their corresponding
   # CSS class.
 
-  imageBaseUrl = "http://127.0.0.1:1313/"
-  imageBaseUrlDraft = "http://127.0.0.1:1313/"
+  imageBaseUrlProduction = "http://127.0.0.1:1313"
+  imageBaseUrlDevelopment = "http://127.0.0.1:1314"
 
   # Provide your metadata here.
   name = "Chris Hawkins"
@@ -46,7 +47,6 @@ disqusShortname = ""
   # Navigation Section
   [params.navigation]
     title = "Sea Hawk Photography"
-    subtitle = "Pretty photos"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -55,18 +55,18 @@ disqusShortname = ""
       name = "Home"
       url = "#"
 
-    [[params.navigation.links]]
-      name = "Galleries"
-      url = "galleries"
+#    [[params.navigation.links]]
+#      name = "Galleries"
+#      url = "galleries"
 
-    [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+#    [[params.navigation.links]]
+#      name = "Elements"
+#      url = "elements.html"
 
-    # Button Style 1
-    [[params.navigation.button1]]
-      name = "See Photos"
-      url = "galleries"
+#    # Button Style 1
+#    [[params.navigation.button1]]
+#      name = "See Photos"
+#      url = "galleries"
 
 #    # Button Style 2
 #    [[params.navigation.button2]]

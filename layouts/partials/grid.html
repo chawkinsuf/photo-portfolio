@@ -1,19 +1,18 @@
 <div class="grid" data-gid="{{ .Params.gid }}" data-isotope='{ "itemSelector": ".grid-item", "masonry": { "columnWidth": ".grid-sizer" } }'>
     <div class="grid-sizer"></div>
-    {{ if .Site.BuildDrafts }}
-        {{ .Scratch.Set "imagePrefix" .Site.Params.imageBaseUrlDraft }}
-    {{ else }}
-        {{ .Scratch.Set "imagePrefix" .Site.Params.imageBaseUrl }}
+    {{ $imagePrefix := .Site.Params.imageBaseUrlProduction }}
+    {{ if eq hugo.Environment "development" }}
+        {{ $imagePrefix = .Site.Params.imageBaseUrlDevelopment }}
     {{ end }}
     {{ range index $.Site.Data.galleries .Params.gid }}
         <img class="grid-item{{ if gt .width .height }} grid-item-2{{ end }}"
-            src="{{ $.Scratch.Get "imagePrefix" }}{{ .small }}"
+            src="{{ $imagePrefix }}{{ .imgThumb }}"
             alt="{{ .alt }}"
-            data-image="{{ $.Scratch.Get "imagePrefix" }}{{ .large }}"
+            data-image="{{ $imagePrefix }}{{ .imgFull }}"
             data-width="{{ .width }}"
             data-height="{{ .height }}"
             data-pid="{{ .pid }}"
-            data-title="{{ .title }}"
+            data-title=""
         />
     {{ end }}
 </div>

@@ -1,0 +1,60 @@
+<html>
+{{ "<!-- Header -->" | safeHTML }}
+    {{ partial "header.html" . }}
+
+    <body>
+
+    {{ "<!-- Wrapper -->" | safeHTML }}
+        <div id="wrapper">
+
+        {{ partial "nav.html" . }}
+
+        {{ $imagePrefix := .Site.Params.imageBaseUrlProduction }}
+        {{ if eq hugo.Environment "development" }}
+            {{ $imagePrefix = .Site.Params.imageBaseUrlDevelopment }}
+        {{ end }}
+
+        {{ "<!-- Main -->" | safeHTML }}
+            <div id="main">
+                <section id="two" class="spotlights">
+                    {{ range sort (where .Site.RegularPages "Section" "galleries") ".Name" }}
+                    <section>
+                        {{ if index $.Site.Data.galleries .Params.gid }}
+                        {{ $imageData := index $.Site.Data.galleries .Params.gid 0 }}
+                        <a href="{{ .Permalink }}" class="image">
+                            <picture data-position="center center">
+                                <source srcset="{{ $imagePrefix }}{{ index $imageData "img480" }}" type="image/jpeg" media="(max-width: 480px)" />
+                                <source srcset="{{ $imagePrefix }}{{ index $imageData "img736" }}" type="image/jpeg" media="(max-width: 736px)" />
+                                <source srcset="{{ $imagePrefix }}{{ index $imageData "img980" }}" type="image/jpeg" media="(max-width: 980px)" />
+                                <img src="{{ $imagePrefix }}{{ index $imageData "img980" }}" />
+                            </picture>
+                        </a>
+                        {{ end }}
+                        <div class="content">
+                            <div class="inner">
+                                <header class="major">
+                                    <h3>{{ .Title }}</h3>
+                                </header>
+                                <p>{{ .Description }}</p>
+                                <ul class="actions">
+                                    <li><a href="{{ .Permalink }}" class="button">See Photos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    {{ end }}
+                </section>
+            </div>
+            
+        {{ "<!-- Footer -->" | safeHTML}}
+            {{ if .Site.Params.footer.enable }}
+                {{ partial "footer.html" . }}
+            {{ end }}
+        
+        </div>
+
+    {{ "<!-- Scripts -->" | safeHTML}}
+        {{ partial "js.html" . }}
+        
+    </body>
+</html>

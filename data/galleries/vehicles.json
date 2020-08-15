@@ -1,51 +1,52 @@
 [
-    {
-        "small": "img/pic01.jpg",
-        "large": "img/pic01.jpg",
-        "alt": "Alt text 01",
-        "width": "800",
-        "height": "1000",
-        "title": "Title 01",
-        "pid": "name-01"
-     },{
-        "small": "img/pic02.jpg",
-        "large": "img/pic02.jpg",
-        "alt": "Alt text 02",
-        "width": "2048",
-        "height": "1365",
-        "title": "Title 02",
-        "pid": "name-02"
-     },{
-        "small": "img/pic03.jpg",
-        "large": "img/pic03.jpg",
-        "alt": "Alt text 03",
-        "width": "2048",
-        "height": "1363",
-        "title": "Title 03",
-        "pid": "name-03"
-     },{
-        "small": "img/pic04.jpg",
-        "large": "img/pic04.jpg",
-        "alt": "Alt text 04",
-        "width": "2048",
-        "height": "1365",
-        "title": "Title 04",
-        "pid": "name-04"
-     },{
-        "small": "img/pic05.jpg",
-        "large": "img/pic05.jpg",
-        "alt": "Alt text 05",
-        "width": "2048",
-        "height": "1365",
-        "title": "Title 05",
-        "pid": "name-05"
-     },{
-        "small": "img/pic06.jpg",
-        "large": "img/pic06.jpg",
-        "alt": "Alt text 06",
-        "width": "2048",
-        "height": "1419",
-        "title": "Title 06",
-        "pid": "name-06"
-     }
+  {
+    "pid": "airshow-01",
+    "width": 2048,
+    "height": 1365,
+    "imgFull": "/galleries/vehicles/airshow-01.jpg",
+    "imgThumb": "/galleries/vehicles/airshow-01_hu60152dc90090a5d0c2a66dbeade7b04a_1187449_500x0_resize_q75_box.jpg",
+    "img980": "/galleries/vehicles/airshow-01_hu60152dc90090a5d0c2a66dbeade7b04a_1187449_980x0_resize_q75_box.jpg",
+    "img736": "/galleries/vehicles/airshow-01_hu60152dc90090a5d0c2a66dbeade7b04a_1187449_736x0_resize_q75_box.jpg",
+    "img480": "/galleries/vehicles/airshow-01_hu60152dc90090a5d0c2a66dbeade7b04a_1187449_480x0_resize_q75_box.jpg"
+  },
+  {
+    "pid": "airshow-02",
+    "width": 3000,
+    "height": 2000,
+    "imgFull": "/galleries/vehicles/airshow-02.jpg",
+    "imgThumb": "/galleries/vehicles/airshow-02_hu11c220ca0b4ca90f86f721a07ec36ce9_5118082_500x0_resize_q75_box.jpg",
+    "img980": "/galleries/vehicles/airshow-02_hu11c220ca0b4ca90f86f721a07ec36ce9_5118082_980x0_resize_q75_box.jpg",
+    "img736": "/galleries/vehicles/airshow-02_hu11c220ca0b4ca90f86f721a07ec36ce9_5118082_736x0_resize_q75_box.jpg",
+    "img480": "/galleries/vehicles/airshow-02_hu11c220ca0b4ca90f86f721a07ec36ce9_5118082_480x0_resize_q75_box.jpg"
+  },
+  {
+    "pid": "airshow-03",
+    "width": 3000,
+    "height": 2000,
+    "imgFull": "/galleries/vehicles/airshow-03.jpg",
+    "imgThumb": "/galleries/vehicles/airshow-03_huee9de80a926649fc9dcf480d8f44cad6_3396981_500x0_resize_q75_box.jpg",
+    "img980": "/galleries/vehicles/airshow-03_huee9de80a926649fc9dcf480d8f44cad6_3396981_980x0_resize_q75_box.jpg",
+    "img736": "/galleries/vehicles/airshow-03_huee9de80a926649fc9dcf480d8f44cad6_3396981_736x0_resize_q75_box.jpg",
+    "img480": "/galleries/vehicles/airshow-03_huee9de80a926649fc9dcf480d8f44cad6_3396981_480x0_resize_q75_box.jpg"
+  },
+  {
+    "pid": "airshow-04",
+    "width": 3000,
+    "height": 2000,
+    "imgFull": "/galleries/vehicles/airshow-04.jpg",
+    "imgThumb": "/galleries/vehicles/airshow-04_hubd34817c7be6eb2ebaf3161afbbb3218_4385480_500x0_resize_q75_box.jpg",
+    "img980": "/galleries/vehicles/airshow-04_hubd34817c7be6eb2ebaf3161afbbb3218_4385480_980x0_resize_q75_box.jpg",
+    "img736": "/galleries/vehicles/airshow-04_hubd34817c7be6eb2ebaf3161afbbb3218_4385480_736x0_resize_q75_box.jpg",
+    "img480": "/galleries/vehicles/airshow-04_hubd34817c7be6eb2ebaf3161afbbb3218_4385480_480x0_resize_q75_box.jpg"
+  },
+  {
+    "pid": "airshow-05",
+    "width": 3000,
+    "height": 1688,
+    "imgFull": "/galleries/vehicles/airshow-05.jpg",
+    "imgThumb": "/galleries/vehicles/airshow-05_huf67edbb62874641777e810c5b849223e_3212277_500x0_resize_q75_box.jpg",
+    "img980": "/galleries/vehicles/airshow-05_huf67edbb62874641777e810c5b849223e_3212277_980x0_resize_q75_box.jpg",
+    "img736": "/galleries/vehicles/airshow-05_huf67edbb62874641777e810c5b849223e_3212277_736x0_resize_q75_box.jpg",
+    "img480": "/galleries/vehicles/airshow-05_huf67edbb62874641777e810c5b849223e_3212277_480x0_resize_q75_box.jpg"
+  }
 ]
